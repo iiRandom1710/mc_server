@@ -1,47 +1,130 @@
-[03:59:10] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:59:10] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:59:10] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:59:10] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:59:10] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:59:10] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[03:59:10] [Server thread/INFO]: Loading properties
-[03:59:10] [Server thread/INFO]: Default game type: SURVIVAL
-[03:59:10] [Server thread/INFO]: Generating keypair
-[03:59:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:59:10] [Server thread/INFO]: Using default channel type
-[03:59:11] [Server thread/INFO]: Preparing level "world"
-[03:59:11] [Server thread/INFO]: Reloading ResourceManager: Default
-[03:59:11] [Server thread/INFO]: Loaded 6 recipes
-[03:59:12] [Server thread/INFO]: Loaded 811 advancements
-[03:59:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:59:13] [Server thread/INFO]: Preparing spawn area: 0%
-[03:59:13] [Server thread/INFO]: Preparing spawn area: 0%
-[03:59:13] [Server thread/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server thread/INFO]: Preparing spawn area: 0%
-[03:59:17] [Server thread/INFO]: Time elapsed: 5330 ms
-[03:59:17] [Server thread/INFO]: Done (6.686s)! For help, type "help"
-[03:59:27] [User Authenticator #1/INFO]: UUID of player iiRandom is bb22d651-3ca2-4dd0-8c36-39dfaab6510c
-[03:59:27] [Server thread/INFO]: iiRandom[/25.73.12.221:24304] logged in with entity id 136 at (-1.7271937483052926, 70.0, 68.30013104069997)
-[03:59:27] [Server thread/INFO]: iiRandom joined the game
-[03:59:32] [Server thread/INFO]: iiRandom lost connection: Disconnected
-[03:59:32] [Server thread/INFO]: iiRandom left the game
-[03:59:36] [Server thread/INFO]: Stopping the server
-[03:59:36] [Server thread/INFO]: Stopping server
-[03:59:36] [Server thread/INFO]: Saving players
-[03:59:36] [Server thread/INFO]: Saving worlds
-[03:59:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[03:59:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:59:37] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[03:59:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:59:37] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[03:59:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:59:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:59:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:59:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:03:10] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:03:10] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:03:10] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:03:10] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:03:10] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:03:12] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[06:03:12] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[06:03:12] [Server thread/INFO]: Loading properties
+[06:03:12] [Server thread/INFO]: Default game type: SURVIVAL
+[06:03:12] [Server thread/INFO]: Generating keypair
+[06:03:12] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_221]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at uk$2.run(SourceFile:109) [server.jar:?]
+[06:03:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:03:12] [Server thread/INFO]: Using default channel type
+[06:03:14] [Server thread/INFO]: Preparing level "world"
+[06:03:14] [Server thread/INFO]: Reloading ResourceManager: Default
+[06:03:14] [Server thread/INFO]: Loaded 6 recipes
+[06:03:15] [Server thread/INFO]: Loaded 811 advancements
+[06:03:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:03:17] [Server thread/INFO]: Preparing spawn area: 0%
+[06:03:17] [Server thread/INFO]: Preparing spawn area: 0%
+[06:03:17] [Server thread/INFO]: Preparing spawn area: 0%
+[06:03:17] [Server thread/INFO]: Preparing spawn area: 0%
+[06:03:18] [Server thread/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[06:03:21] [Server thread/INFO]: Preparing spawn area: 79%
+[06:03:21] [Server thread/INFO]: Time elapsed: 6055 ms
+[06:03:21] [Server thread/INFO]: Done (7.731s)! For help, type "help"
+[06:04:04] [User Authenticator #1/INFO]: UUID of player BlueCahny is 46e39ede-57c5-4ea4-a245-c5042058e11f
+[06:04:04] [Server thread/INFO]: BlueCahny[/25.73.56.192:53539] logged in with entity id 135 at (-1.118253377343199, 70.5625, 69.25082189061281)
+[06:04:04] [Server thread/INFO]: BlueCahny joined the game
+[06:04:16] [User Authenticator #2/INFO]: UUID of player Naraesong is 7f981788-340a-43e7-a7e9-40de8bc359a2
+[06:04:16] [Server thread/INFO]: Naraesong[/25.73.20.83:52212] logged in with entity id 309 at (1.8664897566611507, 68.0, 101.21030763095412)
+[06:04:16] [Server thread/INFO]: Naraesong joined the game
+[06:04:18] [User Authenticator #3/INFO]: UUID of player iiRandom is bb22d651-3ca2-4dd0-8c36-39dfaab6510c
+[06:04:18] [Server thread/INFO]: iiRandom[/25.73.12.221:24511] logged in with entity id 325 at (-1.7271937483052926, 70.0, 68.30013104069997)
+[06:04:18] [Server thread/INFO]: iiRandom joined the game
+[06:05:25] [Server thread/INFO]: iiRandom has made the advancement [Suit Up]
+[06:06:39] [User Authenticator #4/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:06:39] [Server thread/INFO]: YukouBby[/25.78.161.88:53831] logged in with entity id 572 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:06:39] [Server thread/INFO]: YukouBby joined the game
+[06:07:11] [Server thread/INFO]: YukouBby lost connection: Timed out
+[06:07:11] [Server thread/INFO]: YukouBby left the game
+[06:08:05] [User Authenticator #5/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:08:05] [Server thread/INFO]: YukouBby[/25.78.161.88:53845] logged in with entity id 836 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:08:05] [Server thread/INFO]: YukouBby joined the game
+[06:08:26] [Server thread/WARN]: Naraesong moved too quickly! 5.231375591540992,0.0,8.582674891633019
+[06:08:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4448ms or 88 ticks behind
+[06:08:37] [Server thread/INFO]: YukouBby lost connection: Disconnected
+[06:08:37] [Server thread/INFO]: YukouBby left the game
+[06:11:56] [User Authenticator #6/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:11:56] [Server thread/INFO]: YukouBby[/25.78.161.88:54187] logged in with entity id 1478 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:11:56] [Server thread/INFO]: YukouBby joined the game
+[06:12:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
+[06:12:28] [Server thread/INFO]: YukouBby lost connection: Disconnected
+[06:12:28] [Server thread/INFO]: YukouBby left the game
+[06:13:07] [User Authenticator #7/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:13:08] [Server thread/INFO]: YukouBby[/25.78.161.88:54203] logged in with entity id 1641 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:13:08] [Server thread/INFO]: YukouBby joined the game
+[06:13:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3784ms or 75 ticks behind
+[06:13:34] [Server thread/INFO]: YukouBby lost connection: Disconnected
+[06:13:34] [Server thread/INFO]: YukouBby left the game
+[06:14:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[06:14:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2947ms or 58 ticks behind
+[06:16:07] [User Authenticator #8/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:16:07] [Server thread/INFO]: YukouBby[/25.78.161.88:54484] logged in with entity id 2111 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:16:07] [Server thread/INFO]: YukouBby joined the game
+[06:16:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2186ms or 43 ticks behind
+[06:16:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7206ms or 144 ticks behind
+[06:16:50] [Server thread/INFO]: YukouBby lost connection: Disconnected
+[06:16:50] [Server thread/INFO]: YukouBby left the game
+[06:16:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9005ms or 180 ticks behind
+[06:17:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4942ms or 98 ticks behind
+[06:17:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4210ms or 84 ticks behind
+[06:17:47] [User Authenticator #9/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:17:47] [Server thread/INFO]: YukouBby[/25.78.161.88:54504] logged in with entity id 2369 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:17:47] [Server thread/INFO]: YukouBby joined the game
+[06:17:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6392ms or 127 ticks behind
+[06:18:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7425ms or 148 ticks behind
+[06:18:19] [Server thread/INFO]: YukouBby lost connection: Timed out
+[06:18:19] [Server thread/INFO]: YukouBby left the game
+[06:18:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3104ms or 62 ticks behind
+[06:18:41] [User Authenticator #10/INFO]: UUID of player YukouBby is 61b603de-fb8d-4a1b-b061-977ea13df3bc
+[06:18:41] [Server thread/INFO]: YukouBby[/25.78.161.88:54522] logged in with entity id 2490 at (-68.85558380870438, 63.0, 157.73590436845487)
+[06:18:41] [Server thread/INFO]: YukouBby joined the game
+[06:18:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3132ms or 62 ticks behind
+[06:19:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2166ms or 43 ticks behind
+[06:19:13] [Server thread/INFO]: YukouBby lost connection: Disconnected
+[06:19:13] [Server thread/INFO]: YukouBby left the game
+[06:19:31] [Server thread/WARN]: iiRandom moved too quickly! 9.397406436089803,-3.2711671169515952,2.3035619141404524
+[06:19:31] [Server thread/WARN]: Naraesong moved too quickly! 3.230869243918363,0.02442408821369213,9.679276059922373
+[06:19:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4768ms or 95 ticks behind
+[06:19:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3086ms or 61 ticks behind
+[06:20:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5847ms or 116 ticks behind
+[06:20:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7521ms or 150 ticks behind
+[06:20:41] [Server thread/INFO]: BlueCahny lost connection: Disconnected
+[06:20:41] [Server thread/INFO]: BlueCahny left the game
+[06:20:45] [Server thread/INFO]: Naraesong lost connection: Disconnected
+[06:20:45] [Server thread/INFO]: Naraesong left the game
+[06:20:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3202ms or 64 ticks behind
+[06:21:02] [Server thread/INFO]: Stopping server
+[06:21:02] [Server thread/INFO]: Saving players
+[06:21:02] [Server thread/INFO]: Saving worlds
+[06:21:02] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[06:21:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:21:02] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[06:21:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:21:02] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:21:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:21:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:21:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:21:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
